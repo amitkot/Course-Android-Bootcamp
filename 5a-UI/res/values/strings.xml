@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">5a-UI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_linear">LinearActivity</string>
+    <string name="title_activity_relative">RelativeActivity</string>
+    <string name="title_activity_frame">FrameActivity</string>
+    <string name="title_activity_programmatic">ProgrammaticActivity</string>
+    <string name="title_activity_linear_activity2">LinearActivity2</string>
+
+</resources>
