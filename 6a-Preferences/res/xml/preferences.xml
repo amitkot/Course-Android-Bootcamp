@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_eat_fruit"
+        android:summary="Do you want to eat fruit?"
+        android:title="Eat Fruits" />
+
+    <ListPreference
+        android:defaultValue="yet_to_choose"
+        android:dependency="pref_eat_fruit"
+        android:dialogTitle="Which Fruit?"
+        android:entries="@array/pref_fruit_entries"
+        android:entryValues="@array/pref_fruit_values"
+        android:key="pref_selected_fruit"
+        android:summary="Select the fruit you want"
+        android:title="Which Fruit Shall You Eat?" />
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">6b-Advanced UI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_resource_in_programmatic">ResourceInProgrammaticActivity</string>
+    <string name="title_activity_mostly_static">MostlyStaticActivity</string>
+    <string name="title_activity_dynamic_screen">DynamicScreenActivity</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="pref_fruit_entries">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Lychee</item>
+        <item>Grapefruit</item>
+    </array>
+    <array name="pref_fruit_values">
+        <item>apple</item>
+        <item>banana</item>
+        <item>lychee</item>
+        <item>grapefruit</item>
+    </array>
+
+</resources>

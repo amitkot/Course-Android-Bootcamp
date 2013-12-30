@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:key="secondary_preference_screen_key"
+        android:persistent="false"
+        android:title="Secondary Screen" >
+        <CheckBoxPreference
+            android:key="second_screen_first_key"
+            android:summary="Press Back to return"
+            android:title="First Option in Secondary Screen" />
+        <CheckBoxPreference
+            android:key="second_screen_second_key"
+            android:summary="Press Back to return"
+            android:title="Second Option in Secondary Screen" />
+    </PreferenceScreen>
+
+    <Preference
+        android:key="second_screen_register_key"
+        android:title="Register Preference Listener" />
+
+    <PreferenceCategory
+        android:key="first"
+        android:title="First" >
+        <CheckBoxPreference
+            android:key="advanced_1_first"
+            android:summary="Some details about this item"
+            android:title="First Item" />
+        <CheckBoxPreference
+            android:key="advanced_1_second"
+            android:summary="Some details about this item"
+            android:title="Second Item" />
+        <CheckBoxPreference
+            android:key="advanced_1_third"
+            android:summary="Some details about this item"
+            android:title="Third Item" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="advanced_2_first"
+        android:title="Second Category, First Item" >
+        <CheckBoxPreference
+            android:key="B1"
+            android:summary="Some details about this item"
+            android:title="First Item in B" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
