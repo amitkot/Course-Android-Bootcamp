@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom"
+        android:title="Save"/>
+    <item
+        android:id="@+id/action_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:showAsAction="never"
+        android:title="Help"/>
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:showAsAction="always"
+        android:title="Sort"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="ifRoom|withText"
+        android:title="Share"/>
+
+    <item
+        android:id="@+id/action_send"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="never"
+        android:title="Send"/>
+
+</menu>

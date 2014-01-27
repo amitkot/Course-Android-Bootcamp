@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="SpinnerOptions">
+        <item>Spinner</item>
+        <item>Removed</item>
+        <item>Split</item>
+    </string-array>
+
+</resources>

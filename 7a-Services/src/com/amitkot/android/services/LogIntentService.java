@@ -10,7 +10,7 @@ public class LogIntentService extends IntentService {
 	private static final String TAG = LogIntentService.class.getSimpleName();
 
 	public LogIntentService() {
-		super("LogIntentService");
+		super(TAG);
 	}
 
 	@Override

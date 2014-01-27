@@ -1,0 +1,1 @@
+adb shell am broadcast -a android.intent.action.BATTERY_CHANGED --ez present true --ei status 2 --ei level 73
