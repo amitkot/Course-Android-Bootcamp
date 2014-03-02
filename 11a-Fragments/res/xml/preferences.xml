@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Fruits" >
+        <CheckBoxPreference
+            android:key="key_apple"
+            android:summary="Sweet or sour, red or green"
+            android:title="Apple" />
+        <CheckBoxPreference
+            android:key="key_banana"
+            android:summary="Yellow and tasty"
+            android:title="Banana" />
+        <CheckBoxPreference
+            android:key="key_cucumber"
+            android:summary="Green and refreshing"
+            android:title="Cucumber" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Vegetables" >
+        <CheckBoxPreference
+            android:key="key_tomato"
+            android:summary="Red and ripe"
+            android:title="Tomato" />
+        <CheckBoxPreference
+            android:key="key_avocado"
+            android:summary="Green and nutritious"
+            android:title="Avocado" />
+    </PreferenceCategory>
+</PreferenceScreen>

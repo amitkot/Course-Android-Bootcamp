@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">11a-Fragments</string>
+    <string name="title_activity_static_layout">Static Layout Activity</string>
+    <string name="title_activity_dynamic_layout">Dynamic Layout Activity</string>
+    <string name="title_activity_fragment_retain_state">Fragment Retain State Activity</string>
+    <string name="title_activity_no_retain_state">No Retain State Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_edit_first">EditFirstActivity</string>
+    <string name="title_activity_action_bar">ActionBarActivity</string>
+    <string name="title_activity_pass_argument">PassArgumentActivity</string>
+    <string name="title_activity_fragment_dialog">FragmentDialogActivity</string>
+    <string name="title_activity_list_fragment">ListFragmentActivity</string>
+    <string name="title_activity_food_preference">FoodPreferenceActivity</string>
+
+</resources>
